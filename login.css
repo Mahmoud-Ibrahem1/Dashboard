@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.continer {
+    background-color: #848b93;
+    width: 450px;
+    height: 100%;
+    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.entery {
+    display: inline-block;
+    position: relative;
+}
+
+.entery label {
+    display: flex;
+    font-size: 20px;
+    color: white;
+}
+
+.entery input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+#Login {
+    width: 320px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #848b93;
+    font-size: 20px;
+}
+
+#Login:hover {
+    background-color: #5c6773;
+    color: white;
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+
+.continer hr {
+    width: 25%;
+    color: #312b35;
+}
+
+.continer label {
+    font-size: 20px;
+    color: white;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.continer2 {
+    width: 60%;
+    height: 100vh;
+    text-align: center;
+    color: #848b93;
+    margin-left: 0;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.continer2 h2, .continer2 h4 {
+    margin: 10px 0;
+}
+.login-logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 180px;
+    height: 150px;
+}
